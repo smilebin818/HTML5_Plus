@@ -7,5 +7,6 @@
 
 
 ### ico 图标（APP需要的图标下载）
-参照： ①、https://icomoon.io/app/#/select
-　　　 ②、http://iconfont.cn/
+参照： ①、https://icomoon.io/app/#/select </br>
+　　　 ②、http://iconfont.cn/  
+　　　 应用手顺：http://ask.dcloud.net.cn/article/128
