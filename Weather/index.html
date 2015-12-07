@@ -3,66 +3,45 @@
 
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-		<title></title>
-		<script src="js/mui.min.js"></script>
-		<link href="css/mui.min.css" rel="stylesheet" />
-		<link href="css/style.css" rel="stylesheet" />
-		<script type="text/javascript" charset="utf-8">
-			mui.init();
-		</script>
+		<title>Weather</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<link rel="stylesheet" href="css/mui.min.css">
+		<link rel="stylesheet" href="css/style.css">
 	</head>
 
 	<body>
 		<header class="mui-bar mui-bar-nav">
-			<a class="mui-icon mui-icon-left-nav mui-pull-left"></a>
-			<a id="menu" class="mui-action-menu mui-icon mui-icon-bars mui-pull-right" href="#topPopover"></a>
+			<a class="mui-icon mui-icon-gear-filled mui-pull-left" style="color: #999;"></a>
+			<a id="info" class="mui-icon mui-icon-list mui-pull-right" style="color: #999;"></a>
 			<h1 class="mui-title">天气</h1>
 		</header>
-
+		<script src="js/mui.min.js"></script>
 		<div class="mui-content">
-			<div class="mui-content-padded">
-				<p>you are sb
-				</p>
-			</div>
+			<p align="center" style="color: #ddd;padding: 12px 8px;">
+				<img src="images/pin_dot.png" height="16" width="16"/>
+				<span style="font-size: 19.5px;">Chongqing,China</span></br>
+				<!--<span style="font-size: small;">更新于 21:25:32</span>-->
+			</p>
+			<p align="center" style="color: #ddd;">
+				<span style="font-size: small;">更新于 21:25:32</span>
+			</p>
+			<p align="center" style="color: #ddd;padding: 25px 25px;">
+				<span style="font-size:90px">12°C</span>
+			</p>
+			<p align="center" style="color: #ddd;">
+				<span style="font-size:inherit">小雨</span>
+			</p>
+			<p align="center" style="color: #ddd;">
+				<span style="font-size:inherit">2015-12-07</span>
+			</p>
+			<p align="center" style="color: #ddd;">
+				<span style="font-size:inherit">星期四</span>
+			</p>
+
 		</div>
-		
-		<!--右上角弹出菜单-->
-		<div id="topPopover" class="mui-popover">
-			<div class="mui-popover-arrow"></div>
-			<div class="mui-scroll-wrapper">
-				<div class="mui-scroll">
-					<ul class="mui-table-view">
-						<li class="mui-table-view-cell">
-							<a href="#">Item1</a>
-						</li>
-						<li class="mui-table-view-cell"><a href="#">Item2</a>
-						</li>
-						<li class="mui-table-view-cell"><a href="#">Item3</a>
-						</li>
-						<li class="mui-table-view-cell"><a href="#">Item4</a>
-						</li>
-						<li class="mui-table-view-cell"><a href="#">Item5</a>
-						</li>
-						<li class="mui-table-view-cell"><a href="#">Item6</a>
-						</li>
-						<li class="mui-table-view-cell"><a href="#">Item7</a>
-						</li>
-						<li class="mui-table-view-cell"><a href="#">Item8</a>
-						</li>
-						<li class="mui-table-view-cell"><a href="#">Item9</a>
-						</li>
-						<li class="mui-table-view-cell"><a href="#">Item10</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-<!--
-		<footer class="mui-bar mui-bar-footer">
-			<a href="#bottomPopover" class="mui-btn mui-btn-link mui-pull-right">菜单</a>
-		</footer>-->
-		
 	</body>
 
 </html>
