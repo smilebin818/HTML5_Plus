@@ -10,3 +10,7 @@
 参照： ①、https://icomoon.io/app/#/select </br>
 　　　 ②、http://iconfont.cn/  
 　　　 应用手顺：http://ask.dcloud.net.cn/article/128
+
+
+### JQuery 插件库
+参照：http://www.jq22.com/
